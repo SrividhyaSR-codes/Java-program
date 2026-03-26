@@ -9,7 +9,7 @@ public class StringConcepts {
         System.out.println("------------------------");
         String str1 = "Hello";  // String literal (created in String pool)
         String str2 = new String("Hello");  // String object (created in heap)
-        String str3 = "Hello";
+        String str3 = "Hello"; // string literal refer in scp
         System.out.println("str1: " + str1);
         System.out.println("str2: " + str2);
         System.out.println("str1 == str3: " + (str1 == str3) + " (same reference in pool)");
