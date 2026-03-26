@@ -1,4 +1,4 @@
-package DSA;
+package DSA.LinkedListPrograms;
 //Detect Cycle in Linked List — Floyd's Algorithm
 public class LinkedListCycle {
 
